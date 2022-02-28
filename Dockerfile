@@ -9,7 +9,7 @@ RUN python3 -m pip install -U pip wheel
 RUN python3 -m pip install -U $PACKAGE_NAME --find-links=/opt/dist
 
 # Final image
-FROM python:3.9-slim 
+FROM python:3.9-slim
 WORKDIR /app
 COPY --from=builder /opt/venv /opt/venv
 COPY entrypoint.sh .

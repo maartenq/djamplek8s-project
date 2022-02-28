@@ -5,4 +5,4 @@ cd /app
 /opt/venv/bin/gunicorn \
   --worker-tmp-dir=/dev/shm \
   --bind="0.0.0.0:${APP_PORT}" \
-  djamplek8s.config.wsgi:application 
+  djamplek8s.config.wsgi:application
