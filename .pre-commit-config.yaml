@@ -5,7 +5,7 @@ default_language_version:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.1.0
+    rev: v4.2.0
     hooks:
       - id: check-added-large-files
       - id: check-ast
@@ -22,7 +22,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/psf/black
-    rev: 22.1.0
+    rev: 22.3.0
     hooks:
       - id: black
 
@@ -43,7 +43,7 @@ repos:
       - id: tox-ini-fmt
 
   - repo: https://github.com/stackrox/kube-linter
-    rev: 0.2.5
+    rev: 0.3.0
     hooks:
       - id: kube-linter
         name: kube-linter
