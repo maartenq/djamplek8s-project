@@ -27,7 +27,7 @@ repos:
       - id: black
 
   - repo: https://github.com/pycqa/flake8
-    rev: 4.0.1
+    rev: 5.0.2
     hooks:
       - id: flake8
 
@@ -43,7 +43,7 @@ repos:
       - id: tox-ini-fmt
 
   - repo: https://github.com/stackrox/kube-linter
-    rev: 0.3.0
+    rev: 0.4.0
     hooks:
       - id: kube-linter
         name: kube-linter
